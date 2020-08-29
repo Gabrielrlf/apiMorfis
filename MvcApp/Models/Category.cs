@@ -14,6 +14,5 @@ namespace MvcApp.Models
 
         [Required(ErrorMessage = "Esse campo é obrigatório!")]
         public string Name { get; set; }
-        public List<Product> Products { get; set; }
     }
 }
